@@ -26,7 +26,7 @@ public class BitwiseOperator {
         // ^ 비트연산자
         System.out.println(3^10); // 9
         // ! 비트연산자
-        System.out.println(~3); // -4
+        System.out.println(~3); // -4 // 수정
     }
 }
 

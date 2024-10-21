@@ -28,5 +28,9 @@ public class Example1 {
         // Boolean 타입 예제
         boolean bool = true; // true는 참의 뜻, false는 거짓의 뜻
         System.out.println(bool);
+
+        System.out.println(2+3/2);
+        System.out.println(10%3+5/3);
+        System.out.println((4+5/2)%4);
     }
 }

@@ -71,7 +71,7 @@ public class Method {
         checkOddEven(10);
         int number = 10; // 내부적으로 동작!
         String str = (number%2==0) ? "짝수" : "홀수";
-        System.out.println(str); // 짝수*/
+        System.out.println(str); // 짝수 */
     }
     // 메서드의 선언, 정의
     // public static void checkOddEven(number) // 에러!! 정의는 자료형필수

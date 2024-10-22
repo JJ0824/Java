@@ -22,7 +22,9 @@ public class Example7 {
             return ("큰 수는 " + num1);
         } else if (num2 > num1) {
             return ("큰 수는 " + num2);
-        } else {return "두 수는 같음";}
+        } else {
+            return "두 수는 같음";
+        }
 
     }
 }

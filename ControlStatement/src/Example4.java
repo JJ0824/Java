@@ -1,5 +1,3 @@
-import java.util.Enumeration;
-
 public class Example4 {
     public static void main(String[] args) {
         // 숫자를 제곱하는 메서드

@@ -20,11 +20,11 @@ public class Example3 {
 
     public static String checkPositiveOrNegative(int number) {
         if (number > 0) {
-            return ("양수");
+            return "양수";
         } else if (number == 0) {
-            return ("0");
+            return "0";
         } else {
-            return ("음수");
+            return "음수";
         }
     }
 }

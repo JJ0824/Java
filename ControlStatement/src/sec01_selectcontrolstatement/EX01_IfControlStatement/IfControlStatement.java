@@ -1,4 +1,4 @@
-/*세 가지 TYPE의 if 제어문*/
+package sec01_selectcontrolstatement.EX01_IfControlStatement;/*세 가지 TYPE의 if 제어문*/
 
 public class IfControlStatement {
     public static void main(String[] args) {

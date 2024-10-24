@@ -11,7 +11,7 @@ public class Example2 {
         System.out.println(getLength("Happy birthday")); // 14
     }
     public static int getLength(String str) {
-        // int getlength = letter.length();
+        // int getlength = str.length();
         // return (getlength);
         return str.length();
     }

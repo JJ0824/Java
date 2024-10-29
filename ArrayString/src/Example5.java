@@ -17,10 +17,10 @@ public class Example5 {
         int upperCount = 0; // 대문자 갯수
         char[] chArray = str.toCharArray();// String을 char배열로 변환
         for(int i=0; i<chArray.length; i++ ) {
-            if(str.charAt(i)>96){
+            if (str.charAt(i) > 96) {
                 lowerCount = lowerCount + 1;
             }
-            if (str.charAt(i)<91&&str.charAt(i)>64){
+            if (str.charAt(i) < 91 && str.charAt(i) > 64) {
                 upperCount = upperCount + 1;
             }
         }

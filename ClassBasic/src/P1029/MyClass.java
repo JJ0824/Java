@@ -1,5 +1,7 @@
 package P1029;
 
+import java.util.Date;
+
 public class MyClass {
     public static void main(String[] args) {
         Student steve = new Student("Steve", 25);
@@ -27,6 +29,12 @@ public class MyClass {
         book1.setPrice(11000);
         book1.setStock(90);
         System.out.println(book1.price + " " + book1.stock);
+
+        // 주문 생성
+        Order order1 = new Order("1029-001", kim, book1, new Date(), 3);
+        System.out.println(order1.user.username);
+        System.out.println(order1.product.name);
+        System.out.println(order1.orderDate);
     }
 
 }

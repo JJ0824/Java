@@ -8,8 +8,8 @@ public class Example6 {
     }
     public static int getMax (int[] num) {
         int max = num[0];
-        for (int i=0;i<num.length;i++){
-            if (num[i]>max) {
+        for (int i=0 ; i<num.length ;i++){
+            if (max < num[i]) {
                 max = num[i];
             }
         }

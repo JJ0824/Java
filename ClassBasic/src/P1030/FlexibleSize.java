@@ -5,6 +5,7 @@ public class FlexibleSize {
         // #1. method1(int... value)
         method1(1,2);
         method1(1,2,3);
+        method1(1,2,3,4,5);
         method1();
 
         // #2. method2(String... values)

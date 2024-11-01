@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Example10 {
     public static void main(String[] args) {
         // 아래 2차원 배열의 모든 값의 합과 평균을 출력하는 메서드

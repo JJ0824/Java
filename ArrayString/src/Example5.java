@@ -30,7 +30,7 @@ public class Example5 {
     public static String getCharRatio(String str) {
         int lowerCount = 0; // 소문자 갯수
         int upperCount = 0; // 대문자 갯수
-          char[] chArray = str.toCharArray();// String을 char배열로 변환
+        char[] chArray = str.toCharArray();// String을 char배열로 변환
         for(int i=0; i<chArray.length; i++ ) {
               if (str.charAt(i) >= 'a'&& str.charAt(i) <= 'z') {
                   lowerCount = lowerCount + 1;
